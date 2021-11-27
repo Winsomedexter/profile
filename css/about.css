@@ -1,0 +1,161 @@
+body {
+    background-color: blueviolet;
+}
+
+.wrap {
+    margin: 0 150px;
+    background-color: #767681c7
+}
+
+.banner {
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.banner .welcome {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    color: whitesmoke;
+    padding: 25px;
+    background-color: #05444a87;
+}
+
+.banner h2 {
+    font-size: 50px;
+}
+
+.banner h2 span {
+    font-size: 1.1em;
+}
+
+header {
+    background-color: #0f2146;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+header h1 {
+    text-shadow: 1px 1px 0px #fbfbfb;
+    color: #0f2146;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    padding: 5px 19px;
+    text-align: center;
+    font-size: 45px;
+    display: inline-block;
+}
+
+nav {
+    position: sticky;
+    top: 164px;
+    background-color: #0f2146;
+    padding: 15px;
+    margin-top: -2px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #cbdada;
+}
+
+nav ul {
+    text-align: center;
+    margin: 0 auto;
+    white-space: nowrap;
+}
+
+nav li {
+    width: 20%;
+    font-size: 22px;
+    display: inline-block;
+}
+
+main {
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+article h2 {
+    margin-bottom: 0;
+    font-size: 40px;
+    color: #05173e
+}
+
+article p {
+    text-align: justify;
+    line-height: 1.5em;
+    color: #1f1c1c;
+}
+
+.images img {
+    width: 400px;
+}
+
+.images {
+    text-align: center;
+    margin: 80px 0;
+}
+
+.images li {
+    Display: inline-block;
+    width: 40%;
+    margin: 20px 5%;
+}
+
+.images li img {
+    max-width: 100%;
+}
+
+.comments {
+    background-color: #f4f4f4;
+    text-align: center;
+    line-height: 1.3em;
+    color: #555;
+    padding: 10px 20px;
+}
+
+form {
+    padding: 30px 50px;
+    border: 1px solid black;
+    border-radius: 90px 40px;
+    width: 450px;
+    max-width: fit-content;
+    margin: 50px auto;
+    background-color: #f4f4f4;
+}
+
+.add {
+    text-align: center;
+    color: #fff;
+}
+
+
+/*pseudo class*/
+
+nav li a:hover {
+    font-size: 25px;
+}
+
+@media screen and (max-width: 900px) {
+    .wrap {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .wrap {
+        font-size: 16px;
+    }
+}

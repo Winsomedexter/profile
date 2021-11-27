@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <form action="post" method="get">
+
+        <h1> HTML Forms</h1>
+
+        <label for="name"> Your name:</label>
+        <input type="text" name="name" id="name" placeholder="full name..." required="star">
+        <br><br>
+
+        <label for="date"> Your DOB:</label>
+        <input type="date" name="date" id="date" placeholder="Birthdate" required="star">
+        <br><br>
+
+        <label for="mail"> Your Email:</label>
+        <input type="email" name="mail" id="mail" placeholder="Email" required="">
+        <br><br>
+
+        <label for="pass"> Your password:</label>
+        <input type="password" name="password" id="pass" placeholder="password" required="star">
+        <br><br>
+
+        <label for="mobile"> Your Contact:</label>
+        <input type="number" name="mobile" id="mobile" required="star">
+
+        <br><br>
+        <label for="security">Security Questions:</label>
+        <select name="security" id="security">
+            <br>
+            <option value="q1">What is your mothers maidens name?</option>
+            <option value="q2">What is your fathers name?</option>
+            <option value="q3">What is your marital status?</option>
+        </select>
+
+        <h2>GENDER Equality</h2>
+        <input type="radio" id="male" value="Male" name="gender" required="">
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" id="female" value="Male" name="gender" required>
+        <label for="female">Female</label>
+        <br>
+
+        <input type="radio" id="mixed" value="Male" name="gender">
+        <label for="mixed">Haemophrodites</label>
+        <br>
+
+        <input type="radio" id="none" value="Male" name="gender">
+        <label for="none">Unspecified</label>
+        <br>
+        <br>
+
+        <label for="bio">Your Biodata:</label>
+        <br>
+        <textarea id="bio" placeholder="Your bio..." required></textarea>
+        <br>
+        <input type="submit" value="SUBMIT">
+
+
+
+
+</body>
+
+</html>
